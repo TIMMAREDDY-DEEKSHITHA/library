@@ -1,0 +1,54 @@
+About the project
+Introduction 
+In the rapidly evolving world of technology, the ability to manage and retrieve information efficiently is paramount. 
+Search engines are the backbone of this process, and they enable users to locate, access, and utilize data from vast repositories. 
+This project asks you to develop just such a basic search application. This reading provides an overview of the project's purpose and goals and an explanation of 
+what you can expect as you work through each task.
+
+The purpose of the project
+In this project, you will develop a basic search engine application designed to search through a data structure, locate files, 
+and populate objects with the retrieved data. Additionally, the program will incorporate sorting algorithms to organize the data and include a user-friendly menu interface. 
+The primary purpose of this project is to allow you to incorporate key concepts such as data handling, and user interaction within a software application. 
+By working on this project, you will gain practical experience in reading data from files, implementing sorting algorithms, creating user interfaces, 
+and managing user interactions. 
+
+The project also emphasizes the importance of data persistence through serialization, ensuring that user data and application state are preserved across sessions. 
+This project serves as a comprehensive exercise in integrating the programming concepts you’ve learned in this course - and in previous courses - 
+into a cohesive application. This will allow you to refine and perfect your skills.
+
+The goal of the project
+The goal of this project is to create a fully functional basic search engine that can efficiently locate and retrieve data from a structured dataset. 
+The application will not only search for specific files but also sort the data using selected algorithms, providing users with an organized view of the information. 
+By the end of the project, you will have developed a search engine with the following capabilities:
+
+Data Retrieval: The application will have the ability to read and parse data from a file, populate a data structure, and create objects representing the data.
+
+Sorting: Sorting algorithms will be implemented to organize the data based on user-defined criteria.
+
+User Interaction: It will contain a user-friendly menu that allows users to search, view, and sort data.
+
+User Activity Logging: The application will also have a system to log and save user interactions for future analysis and debugging.
+
+Data Persistence: As you design the application, you will also need to incorporate the ability to serialize and deserialize data, ensuring that user progress and 
+application state are maintained across sessions.
+
+What to expect from the project
+This is a graded lab. When you submit your work, you will receive marks at the end of the lab. The project is graded as follows:
+
+Task 1 (Reading data from a file): Ensure the Library class successfully reads book data from a file, creates Book objects, and populates the books list. 
+This step is crucial for enabling the application to manage and display the book collection efficiently.
+
+Task 2 (Sorting data): Implement the bubble sort algorithm in the SortUtil.java class to sort a list of Book objects by a specified attribute, such as title, 
+author, or publication year. This step allows the application to organize and display the book collection in an ordered manner based on user preferences.
+
+Task 3 (Create a search function): Develop a search function in the Library class that allows users to search for a specific book by its title, author name, or
+publication year. The search functionality needs to be case-insensitive to improve user experience.
+
+Task 4 (Implement a text-based menu): Design and implement a text-based menu in the LibraryMenu class that allows users to interact with the library, 
+perform various actions, and exit the program.
+
+Task 5 (Save user interactions): Implement functionality to log and save user interactions with the library system. This includes viewing all books, sorting books, 
+searching for books, and exiting the program.
+
+Task 6 (Serialize and deserialize objects): Complete the implementation of the saveLibrary and loadLibrary methods in the LibrarySerializer class to allow serialization 
+and deserialization of the library's data, ensuring data persistence between program runs.
